@@ -1,0 +1,18 @@
+Este projeto parece adotar uma arquitetura monolítica baseada em camadas, com responsabilidades distintas distribuídas em cada camada. Aqui está um detalhamento do estilo arquitetural utilizado:
+
+Frontend Dinâmico com HTML, CSS e JavaScript:
+
+O projeto utiliza arquivos HTML estáticos com JavaScript para fornecer interatividade.
+Responsabilidade: Interagir com o usuário, capturar entradas e exibir resultados.
+Gerenciamento de Estado com Local Storage:
+
+Dados como receitas, favoritos e ingredientes são armazenados no localStorage.
+Responsabilidade: Persistir dados simples entre sessões do usuário, simulando um banco de dados local.
+Divisão de Funções:
+
+HTML para estrutura do conteúdo.
+CSS para estilização e design responsivo.
+JavaScript para lógica e manipulação dos dados.
+Sem Backend ou API:
+
+Todo o sistema está no lado cliente, sem comunicação com um servidor.
